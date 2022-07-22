@@ -20,9 +20,9 @@ export default function Home() {
         <Row className="text-center">
           <h2>Cats</h2>
           <p>
-            Cats are my favorite animal. They're good at climbing trees, can see
+            Cats are my favorite animal. They&apos;re good at climbing trees, can see
             in the dark, and can leap very far. I decided if I wanted to learn
-            about cats more, I should try to behave like them. That's what led
+            about cats more, I should try to behave like them. That&apos;s what led
             me to tree-climbing. I became very good at it.
           </p>
           <Col>
@@ -48,15 +48,16 @@ export default function Home() {
           <h2>Climbing</h2>
           <p>
             I started tree climbing when I was four and now I do it almost every
-            day. It's become one of my favorite things to do in the wild. These
+            day. It&apos;s become one of my favorite things to do in the wild. These
             are some pictures of me climbing in my favorite park,{" "}
             <a
               href="https://www.alltrails.com/trail/us/california/temescal-canyon-loop-trail"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Temescal Canyon
             </a>
-            . My mom started a play-group called "Forest School" and we go every
+            . My mom started a play-group called &quot;Forest School&quot; and we go every
             Wednesday. The parents take turns teaching stuff, but recently my
             mom and I have been the only ones that are doing crafts. One of my
             friends, Maya, moved away only 5 years after she had joined.
@@ -89,6 +90,7 @@ export default function Home() {
             <a
               href="https://www.amazon.com/s?k=the+princess+in+black&sprefix=the+princess+in+black%2Caps%2C350&ref=nb_sb_ss_ts-doa-p_1_21"
               target="_blank"
+              rel="noreferrer noopener"
             >
               The Princess In Black
             </a>
@@ -96,6 +98,7 @@ export default function Home() {
             <a
               href="https://www.amazon.com/s?k=danny+dragonbreath&crid=3SXS9SWXDV5K4&sprefix=danny+dragonbreath%2Caps%2C130&ref=nb_sb_noss_1"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Dragonbreath
             </a>
@@ -104,17 +107,19 @@ export default function Home() {
             <a
               href="https://www.amazon.com/s?k=wings+of+fire&sprefix=wings+of+f%2Caps%2C701&ref=nb_sb_ss_ts-doa-p_1_10"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Wings of Fire
             </a>
-            ! I started by just reading the graphic novels, but they hadn't put
+            ! I started by just reading the graphic novels, but they hadn&apos;t put
             out the fifth graphic novel yet, so I started reading the novels
-            just because my friend convinced me. I'm still reading them today...
+            just because my friend convinced me. I&apos;m still reading them today...
             there are fifteen books in the series, not including the graphic
             novels. My favorite book out of the series was probably the book{" "}
             <a
               href="https://www.amazon.com/Wings-Fire-Book-Six-Rising-ebook/dp/B00KRN1WKC/ref=sr_1_1?keywords=wings+of+fire+moon+rising&qid=1658337743&sprefix=wings+of+fire+moon+%2Caps%2C138&sr=8-1"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Moon Rising
             </a>{" "}
@@ -125,7 +130,7 @@ export default function Home() {
             <a href="https://www.amazon.com/s?k=princess+in+black&sprefix=princess+in+bla%2Caps%2C299&ref=nb_sb_ss_ts-doa-p_1_15">
               <img
                 src="https://m.media-amazon.com/images/P/B0721L8V5J.01._SCLZZZZZZZ_SX500_.jpg"
-                class="img-fluid"
+                className="img-fluid"
               />
             </a>
           </Col>
@@ -133,7 +138,7 @@ export default function Home() {
           <a href="https://www.amazon.com/s?k=danny+dragonbreath&sprefix=danny+dragon%2Caps%2C141&ref=nb_sb_ss_ts-doa-p_2_12">
           <img
             src="https://m.media-amazon.com/images/P/0142420956.01._SCLZZZZZZZ_SX500_.jpg"
-            class="img-fluid"
+            className="img-fluid"
           />
         </a>
           </Col>
@@ -141,7 +146,7 @@ export default function Home() {
             <a href="https://www.amazon.com/s?k=wings+of+fire&sprefix=wings+of+f%2Caps%2C701&ref=nb_sb_ss_ts-doa-p_1_10">
               <img
                 src="https://m.media-amazon.com/images/I/51PNh0IkhlL.jpg"
-                class="img-fluid"
+                className="img-fluid"
               />
             </a>
           </Col>
@@ -149,20 +154,20 @@ export default function Home() {
         <Row className="text-center">
           <h2>Fern the Leopard Book Series</h2>
           <Col>
-          <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936905491281608754" target="_blank">
+          <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936905491281608754" target="_blank" rel="noreferrer noopener">
           <img
             src="https://lh3.googleusercontent.com/CWIWo_z0-QOHtwyORxTt7RssEwD5BaXNPR4HvmwbZge3BNhnimMbtvekfRXOR1jwG_YLBvlzOBzRaIKsg5uXQsTPSST9XJ3G4Jndyg=w600"
-            class="img-fluid"
+            className="img-fluid"
           />
         </a>
           </Col>
           <Col>
-          <p class="text-center">My love of books led me to making my own book, "Fern And The Toucan Village."  It's about a leopard named Fern who is princess of the rainforest, and she saves the Toucan Village from a wizard.  My one book led me to thinking that most of my books were a series, so I decided to make a Fern the Leopard Book Series.  Each book has 11 chapters and 3 main characters: Fern the Leopard, Bella the Mouse, and Tsunami the Purrmaid.  Purrmaids are half cat, half fish animals and live in any type of water.  Tsunami is a river purrmaid that lives in the Amazon River.  Tsunami's fourth best friend is Marsh the Caiman. A caiman is like an alligator, except fiercer and stronger, and lives in the Amazon.  Fern has a cousin named Flower who is about an inch tall, but still a leopard.  Flower lives in a field and calls the field Flower's Field.  Her meadow is filled with different kinds of flowers and an occasional baby tree.  Her house is inside a toadstool underneath some pieces of grass that she wove together.  In addition to being Fern's cousin, she is also Fern's best friend.  All of these characters help fern in her quests as she journeys through the rainforest righting all the wrongs.</p>
+          <p className="text-center">My love of books led me to making my own book, "Fern And The Toucan Village."  It&apos;s about a leopard named Fern who is princess of the rainforest, and she saves the Toucan Village from a wizard.  My one book led me to thinking that most of my books were a series, so I decided to make a Fern the Leopard Book Series.  Each book has 11 chapters and 3 main characters: Fern the Leopard, Bella the Mouse, and Tsunami the Purrmaid.  Purrmaids are half cat, half fish animals and live in any type of water.  Tsunami is a river purrmaid that lives in the Amazon River.  Tsunami&apos;s fourth best friend is Marsh the Caiman. A caiman is like an alligator, except fiercer and stronger, and lives in the Amazon.  Fern has a cousin named Flower who is about an inch tall, but still a leopard.  Flower lives in a field and calls the field Flower&apos;s Field.  Her meadow is filled with different kinds of flowers and an occasional baby tree.  Her house is inside a toadstool underneath some pieces of grass that she wove together.  In addition to being Fern&apos;s cousin, she is also Fern&apos;s best friend.  All of these characters help fern in her quests as she journeys through the rainforest righting all the wrongs.</p>
           </Col>
         </Row>
         <h2 className="text-center"><a href="https://opensea.io/collection/96dragons" target="_blank">Dragon Drawings</a></h2>
-          <p class="text-center">The Wings of Fire Books led me to thinking, "Hey, what if I tried to draw some dragons?"  I started by just tracing the covers of the books with tracing paper, and then after I had traced them, took pictures of them on an app called <a href="https://procreate.art/" target="_blank">Procreate</a> and traced them on the iPad.  Then I colored them in, and added backgrounds.  Sometimes, I even made dragon eggs in the pictures.</p>
-      <h3 class="text-center">There are seven different types of dragons:</h3>
+          <p className="text-center">The Wings of Fire Books led me to thinking, "Hey, what if I tried to draw some dragons?"  I started by just tracing the covers of the books with tracing paper, and then after I had traced them, took pictures of them on an app called <a href="https://procreate.art/" target="_blank" rel="noreferrer noopener">Procreate</a> and traced them on the iPad.  Then I colored them in, and added backgrounds.  Sometimes, I even made dragon eggs in the pictures.</p>
+      <h3 className="text-center">There are seven different types of dragons:</h3>
 
         <Row className="text-center">
           <Col>
@@ -170,7 +175,7 @@ export default function Home() {
             <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936918685421142017">
           <img
             src="https://lh3.googleusercontent.com/XC-OZVxQVKlWrdxE93_JsZP3zc4TENgAJY6JDBAXgZy2zRuvI6xHKxy6m9qE8r_qP0sRDPsBcJBdzQFUvoNwfyy1ppJl0L3-02TaSA=w600"
-            class="img-fluid"
+            className="img-fluid"
           />
         </a>
         <br />
@@ -183,7 +188,7 @@ export default function Home() {
                 <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936909889328119809">
               <img
                 src="https://lh3.googleusercontent.com/1pgLRFPH5C8cjxigZndPl7TF-UkyyjgSWiq2GSCJln_da75B9yCcsVTRnGjs2BDwd4nhs77tHx1dgF5IGAnmjlXK09ZpGxljRbMxr9c=w600"
-                class="img-fluid"
+                className="img-fluid"
               />
             </a>
             My second favorite are probably Sandwings since they have a deadly venemous tailbarb like a scorpion.  Their scales are the color of sand since they live in the desert.
@@ -193,7 +198,7 @@ export default function Home() {
             <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936916486397886465">
           <img
             src="https://lh3.googleusercontent.com/tfydDegoZYlBscyyCZM5zdVgrnUR2Ier0N42Ak9oTjynqo7K6uQY1bXKDTIJ_h40BiL4T66U4p6ZZ6qREEcewmcVN4a0dQgmAsIH=w600"
-            class="img-fluid"
+            className="img-fluid"
           />
           </a>
         Nightwings can live anywhere and those who are born under one full moon either have mind-reading or prophecy powers, and those under two moons have both.  Some say that those born under three moons also have amuse powers, which is a power to enchant objects.  Others say the third moon just makes the other two powers stronger.
@@ -205,7 +210,7 @@ export default function Home() {
             <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936915386886258689">
           <img
             src="https://lh3.googleusercontent.com/djtLxo8tInL1RtcHcF7C6wZe8ADl7Q5ixzSoCkNL6iU6Sb-Y0NR3IK1_1qyZ3rqxwDSi7J4AeBODOvOKrcaEyUYwIAJC6B8PENDyAA=w600"
-            class="img-fluid"
+            className="img-fluid"
           />
         </a>
         Icewings live in the arctic and have sharp icicles sticking out of their back, a deadly frost-breathe, and snow-colored scales. Also three words:  They. Hate. Nightwings.
@@ -215,7 +220,7 @@ export default function Home() {
             <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936908789816492033">
           <img
             src="https://lh3.googleusercontent.com/rp2Q7aEodWJtGBDJctkIX6DcCvBW3rAsmeE8A33fpDeHXjVzpPAN4F_-06yQG_a_h4Ifkqt46e4XiBnDBndAR0cueoLhNQAuEIYO3A=w600"
-            class="img-fluid"
+            className="img-fluid"
           />
         </a>
         Mudwings have dual brownish, grayish, greenish scales, and their homes are the mudswamps.  Unlike the other tribes, Mudwings that are born from eggs the color of dragonblood are fireproof.  They live in groups and rely on each other to keep each other safe, unlike Skywings who sometimes even kill their brothers and sisters.
@@ -225,7 +230,7 @@ export default function Home() {
             <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936906590793236481">
           <img
             src="https://lh3.googleusercontent.com/185p3OjdqH-rvE-iCaHVn3hDhxm8UvskRjzD18-geSnGqNUAczMXVSe6Bt4heG3jLIWQwQqKYOhgrYKdsFwrlxrsjCvY7D-gLGM4ug=w600"
-            class="img-fluid"
+            className="img-fluid"
           />
         </a>
         All the dragons scales match their environment except the Skywings.  Skywings are the most powerful tribe because they can breathe fire for longer than any other dragon, fly at top speeds, and have excellent eyesight.  The only thing about them is that their scales are bright red, just the thing to attract attention, even if they're coming from a mile away in the sky.
@@ -235,7 +240,7 @@ export default function Home() {
             <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936910988839747585">
           <img
             src="https://lh3.googleusercontent.com/PRpPprsVK6Zv56LS-5A0JlYPn28kWeGDF4qP3iNcyXQSCRSNyqk8siJ7hwcwaB0-zFWiI62gdmi5yxScfXNBrKQswnr9x7glFDdUqQ=w600"
-            class="img-fluid"
+            className="img-fluid"
           />
         </a>
         Seawings have glow in the dark aquamarine scales.  You can probably guess where they live and what color their scales are.  They can see in the dark and breathe under water.
