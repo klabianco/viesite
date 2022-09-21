@@ -7,13 +7,13 @@ import Col from "react-bootstrap/Col";
 import FernNavbar from '../components/FernNavbar';
 
 export default function Home() {
-  const siteTitle = "VV's Faves";
+  const pageTitle = "VV's Faves";
 
   return (
     <div>
       <Head>
-        <title>{siteTitle}</title>
-        <meta name="description" content="{siteTitle}" />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageTitle} />
         <meta name="author" content="Vienna Labianca" />
         <meta name="google-site-verification" content="nbTobdLoCc4hK3bvPn20V8frJrQnwjMooxreqNZuMvQ" />
         <link rel="icon" href="/favicon.ico" />
