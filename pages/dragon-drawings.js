@@ -16,12 +16,12 @@ export default function Home() {
         <title>{pageTitle}</title>
         <meta name="description" content="{pageTitle}" />
         <link rel="icon" href="/favicon.ico" />
-        {/* Global Site Tag (gtag.js) - Google Analytics */}
+      </Head>
+      {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=G-9PQ2Z2KZ4Y`}
       />
-      </Head>
       <Script
         id="gtag-init"
         strategy="afterInteractive"
