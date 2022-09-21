@@ -15,6 +15,7 @@ export default function Home() {
         <title>{siteTitle}</title>
         <meta name="description" content="{siteTitle}" />
         <meta name="author" content="Vienna Labianca" />
+        <meta name="google-site-verification" content="nbTobdLoCc4hK3bvPn20V8frJrQnwjMooxreqNZuMvQ" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FernNavbar />
