@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FernNavbar from '../components/FernNavbar';
+import Script from 'next/script'
 
 export default function Home() {
   const pageTitle = "VV's Faves";
