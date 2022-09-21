@@ -17,7 +17,8 @@ export default function Home() {
         <meta name="author" content="Vienna Labianca" />
         <meta name="google-site-verification" content="nbTobdLoCc4hK3bvPn20V8frJrQnwjMooxreqNZuMvQ" />
         <link rel="icon" href="/favicon.ico" />
-        {/* Global Site Tag (gtag.js) - Google Analytics */}
+      </Head>
+      {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=G-9PQ2Z2KZ4Y`}
@@ -36,7 +37,6 @@ export default function Home() {
           `,
         }}
       />
-      </Head>
       <FernNavbar />
 
       <Container>

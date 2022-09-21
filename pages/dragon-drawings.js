@@ -20,6 +20,7 @@ export default function Home() {
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=G-9PQ2Z2KZ4Y`}
       />
+      </Head>
       <Script
         id="gtag-init"
         strategy="afterInteractive"
@@ -34,7 +35,6 @@ export default function Home() {
           `,
         }}
       />
-      </Head>
       <Navbar />
 
       <Container>
