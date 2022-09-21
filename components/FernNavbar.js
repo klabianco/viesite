@@ -13,7 +13,7 @@ const FernNavbar = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/fern-book-series">Fern Book Series</Nav.Link>
+          <Nav.Link href="/fern-book-series">The Fern Book Series</Nav.Link>
           <Nav.Link href="/dragon-drawings">Dragon Drawings</Nav.Link>
           {/*
           
