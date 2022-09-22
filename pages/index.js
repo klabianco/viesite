@@ -1,43 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FernNavbar from '../components/FernNavbar';
-import Script from 'next/script'
+import Header from '../components/Header'
 
 export default function Home() {
   const pageTitle = "VV's Faves";
 
   return (
     <div>
-      <Head>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageTitle} />
-        <meta name="author" content="Vienna Labianca" />
-        <meta name="google-site-verification" content="nbTobdLoCc4hK3bvPn20V8frJrQnwjMooxreqNZuMvQ" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      {/* Global Site Tag (gtag.js) - Google Analytics */}
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-9PQ2Z2KZ4Y`}
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-9PQ2Z2KZ4Y', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      />
+      <Header title={pageTitle} />
       <FernNavbar />
 
       <Container>

@@ -4,39 +4,17 @@ import styles from "../styles/Home.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Navbar from '../components/FernNavbar';
 import Script from 'next/script'
+import FernNavbar from "../components/FernNavbar";
+import Header from '../components/Header'
 
 export default function Home() {
   const pageTitle = "Fern The Leopard Book Series";
 
   return (
     <div>
-      <Head>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageTitle} />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      {/* Global Site Tag (gtag.js) - Google Analytics */}
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-9PQ2Z2KZ4Y`}
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-9PQ2Z2KZ4Y', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      />
-      <Navbar />
+     <Header title={pageTitle} />
+    <FernNavbar />
 
       <Container>
         <Row className="text-center">
