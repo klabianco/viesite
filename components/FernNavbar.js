@@ -6,15 +6,15 @@ import Navbar from 'react-bootstrap/Navbar';
 const FernNavbar = () => {
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" className='mb-4'>
     <Container>
-      <Navbar.Brand href="/">VV&apos;s Faves</Navbar.Brand>
+      <Navbar.Brand href="/">Vienna&apos;s Web</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/fern-book-series">The Fern Book Series</Nav.Link>
+          <Nav.Link href="/fern-leopard-books">Fern The Leopard Books</Nav.Link>
           <Nav.Link href="/dragon-drawings">Dragon Drawings</Nav.Link>
+          <Nav.Link href="/about">About Vienna</Nav.Link>
           {/*
           
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">

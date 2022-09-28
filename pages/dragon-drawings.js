@@ -3,21 +3,26 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FernNavbar from "../components/FernNavbar";
 import Header from '../components/Header'
+import Footer from "../components/Footer";
 
 export default function Home() {
   const pageTitle = "Vienna's Dragon Drawings";
 
   return (
-    <div>
+    <>
       <Header title={pageTitle} />
     <FernNavbar />
 
       <Container>
-      <h2 className="text-center"><a href="https://opensea.io/collection/96dragons" target="_blank" rel="noreferrer noopener">Dragon Drawings</a></h2>
-          <p className="text-center">The Wings of Fire Books led me to thinking, &quot;Hey, what if I tried to draw some dragons?&quot;  I started by just tracing the covers of the books with tracing paper, and then after I had traced them, took pictures of them on an app called <a href="https://procreate.art/" target="_blank" rel="noreferrer noopener">Procreate</a> and traced them on the iPad.  Then I colored them in, and added backgrounds.  Sometimes, I even made dragon eggs in the pictures.</p>
-      <h3 className="text-center">There are seven different types of dragons:</h3>
+      <h1>Dragon Drawings</h1>
+      <hr />
+      <Col className="mb-3">
+          <p>The Wings of Fire Books led me to thinking, &quot;Hey, what if I tried to draw some dragons?&quot;  I started by just tracing the covers of the books with tracing paper, and then after I had traced them, took pictures of them on an app called <a href="https://procreate.art/" target="_blank" rel="noreferrer noopener">Procreate</a> and traced them on the iPad.  Then I colored them in, and added backgrounds.  Sometimes, I even made dragon eggs in the pictures.</p>
+          <a href="https://opensea.io/collection/96dragons" target="_blank" className="btn btn-primary form-control" rel="noreferrer noopener">View The Full Collection</a>
+          </Col>
+      <h2 className="text-center">There are seven different types of dragons:</h2>
 
-        <Row className="text-center">
+        <Row>
           <Col>
           <h4>Rainwings</h4>
             <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936918685421142017">
@@ -29,8 +34,6 @@ export default function Home() {
         <br />
         My favorite out of the dragons are Rainwings because they can spit a deadly venom and camouflage their scales.  They live in the rainforest and most of the other tribes think they are lazy.
           </Col>
-        </Row>
-        <Row>
           <Col>
           <h4>Sandwings</h4>
                 <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/108611680744493308023694569108433614589881484166149125498427936909889328119809">
@@ -95,6 +98,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-    </div>
+      <Footer/>
+    </>
   );
 }
