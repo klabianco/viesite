@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import Footer from "../components/Footer";
 import Link from "next/link";
 import NewsLetterSignUpForm from "../components/NewsletterSignupForm";
+import fernHeader from '../public/i/fern-page-header.jpg';
 
 export default function Home() {
   const pageTitle = "Fern The Leopard Books";
@@ -18,6 +19,14 @@ export default function Home() {
       <Container>
       <h1>{pageTitle}</h1>
           <hr />
+          <Row className="mb-3">
+            <Col>
+            <Image
+              src={fernHeader}
+              alt="Fern!"
+            />
+            </Col>
+          </Row>
         <Row className="mb-3">
           <Col>
           Fern, a lovable leopard, is the Princess of the Amazon Rainforest.  She journeys through the jungle on magical quests to right all the wrongs, collecting artifacts as she goes.  Fern is joined by her two best friends that help her accomplish these missions: Bella (a smart gray mouse) and Tsunami (a purrmaid - half cat, half fish.)

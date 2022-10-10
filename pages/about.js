@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Ratio from 'react-bootstrap/Ratio';
 import FernNavbar from "../components/FernNavbar";
 import Header from '../components/Header'
 import Footer from "../components/Footer";
@@ -18,7 +19,8 @@ export default function Home() {
     <h1>About Vienna</h1>
     <hr />
     <Row className="mb-3">
-    <h2>Fern The Leopard</h2>
+      <Col md>
+      <h2>Fern The Leopard Books</h2>
     <p>
     My love of books led me to making my own book, <a
               href="https://www.amazon.com/Vienna-Labianca/dp/B0B7Q3DX9C/ref=sr_1_1?crid=25OB6S3SJHEPV&keywords=fern+and+the+toucan+village&qid=1664314109&qu=eyJxc2MiOiIwLjAwIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=fern+and+the+toucan%2Caps%2C449&sr=8-1"
@@ -27,12 +29,9 @@ export default function Home() {
             >Fern And The Toucan Village</a>. It&apos;s about a leopard named Fern who is princess of the rainforest, and she saves the Toucan Village from a wizard. My one book led me to thinking that most of my books were a series, so I decided to make the&nbsp;
             <a href={fernLink}>Fern the Leopard Book Series</a>.
     </p>
-    <Col>
     <a href={fernLink} className="btn btn-primary form-control">Explore Fern The Leopard Books</a>
-    </Col>
-    </Row>
-    <Row className="mb-3">
-          <h2>Reading</h2>
+
+    <h2 className="mt-3">Other Books</h2>
           <p>
             I started reading when I was four, featuring one of my favorite
             early-readers chapter books,&nbsp;
@@ -74,6 +73,7 @@ export default function Home() {
             </a> which was about a young Nightwing who had prophecy and mind-reading
             powers.
           </p>
+          <Row>
           <Col>
             <a href="https://www.amazon.com/s?k=princess+in+black&sprefix=princess+in+bla%2Caps%2C299&ref=nb_sb_ss_ts-doa-p_1_15">
               <img
@@ -98,9 +98,15 @@ export default function Home() {
               />
             </a>
           </Col>
-        </Row>
-        <Row className="mb-3">
-          <h2>Climbing</h2>
+          </Row>
+      </Col>
+      <Col md>
+      <h2>Vie-A-Woo</h2>
+      <Ratio aspectRatio="16x9">
+  <iframe src="https://www.youtube.com/embed/K3xPb2l7EdQ" allowFullScreen></iframe>
+</Ratio>
+
+<h2 className="mt-3">Climbing</h2>
           <p>
             I started tree climbing when I was four and now I do it almost every
             day. It&apos;s become one of my favorite things to do in the wild. These
@@ -117,6 +123,7 @@ export default function Home() {
             mom and I have been the only ones that are doing crafts. One of my
             friends, Maya, moved away only 5 years after she had joined.
           </p>
+          <Row>
           <Col>
             <img
               src="https://lh3.googleusercontent.com/lEujovyCm8SfQqMGBgghvAmqAABd1aEzL9MZHAhW0-TAp2KybObox-B9_i_terBJClhxNVPKxtDE0yg0FgggkLWL_1U9OzRroIZGNnWMQtaAf7eDLid3-JQov5A62bltnUosoKXm5lz4MMU05HLBte9EU6CQ4u8yjoET2Ywfb-IEkpYtOyEUNEFZYtfZAH2imZ9T6ImqPRXqg7nx2vbwVIMscYXkPx7ywMbbeQeibJ6kn-_vm0Y6_Afn1Q3hs0LKBca9ujC-yiLcsWdSOEKl3mxZn8spl4BUAf7S2T5bHo4Xdn0yLv6LNcdavakmFLF-HARIPO0oZA_8iEFEMaPMlhNH1zOJ1pxYiyMvWFYdt8Wh_zja8kTbb0OON_i97m0eZihBuHcRJqXOyMGSzTdzT39qqLnNTCEWGboCfPUkOc8mwWnElkT4M2_DWcLB66VYPGPhlZ2LVjUj-b2wX7jPyXIx-84eDDN2_coB8CjSYJjTCkPQEZipamgFxNFp3NMvcgPCD10vyY8rn_t56L1C4o4Cttsup918_Ki88hM6k0lyzZiaC5uEnAWWSqWO5vtE3-2VYqXF54-7js7wRBBxuFwYJhAeqqvidQXBeYGr9TSFRL1pdkJhRnZ58hx2Osxq3vlj_8ukaxZIowNzClwBZ1Wz-sWRoY1_7q4rl3KiNMdhbjZf7UXsq3OpptJyJwarPT190olfaE4sJKCokS9kH_q1xnmKo0e2Sy54spb9WkxDG1aDgs6U2eImADCSmV2LxxSqA4eIXfu1fYRnAA86TiMma5Vg9RgVmul72S-AV0VY5L86tPnhGwnxiRnCk7pY36NnMq9SOfdAODi5Kc_u1z6olIn1vl30wyctTl758ak=w386-h686-no?authuser=3"
@@ -135,6 +142,15 @@ export default function Home() {
               className="img-fluid"
             />
           </Col>
+          </Row>
+      </Col>
+    
+    </Row>
+    <Row className="mb-3">
+          
+        </Row>
+        <Row className="mb-3">
+          
         </Row>
         <Row>
           <h2>Cats</h2>
