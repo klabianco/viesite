@@ -7,6 +7,10 @@ import Footer from "../components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
+import adFern from '../public/i/ad-fern.png';
+import adDragons from '../public/i/dragon-drawings.png';
+import vieDaisy from '../public/i/vie-daisy.jpg';
+
 export default function Home() {
   const pageTitle = "Vienna's Web";
 
@@ -20,10 +24,8 @@ export default function Home() {
           <Link href="/fern-leopard-books">
             <a>
             <Image
-              src="/i/ad-fern.png"
+              src={adFern}
               alt="Fern And The Toucan Village"
-              width="1140"
-              height="300"
             />
             </a>
             </Link>
@@ -34,10 +36,8 @@ export default function Home() {
           <Link href="/dragon-drawings">
             <a>
             <Image
-              src="/i/dragon-drawings.png"
+              src={adDragons}
               alt="Dragon Drawings"
-              width="800"
-              height="450"
             />
             </a>
             </Link>
@@ -48,10 +48,8 @@ export default function Home() {
           <Link href="/about">
             <a>
             <Image
-              src="/i/vie-daisy.jpg"
+              src={vieDaisy}
               layout="responsive"
-              width="483"
-              height="644"
               className="rounded-circle"
               style={{borderColor: 'blue', borderWidth: '25px'}}
             />
