@@ -8,6 +8,7 @@ const Header = ({title}) => {
         <title>{title}</title>
         <meta name="description" content={title} />
         <meta name="author" content="Vienna Labianca" />
+        <meta name="google-site-verification" content="nbTobdLoCc4hK3bvPn20V8frJrQnwjMooxreqNZuMvQ" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
