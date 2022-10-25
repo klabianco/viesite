@@ -7,7 +7,7 @@ import Header from '../components/Header'
 import Footer from "../components/Footer";
 
 export default function Home() {
-  const pageTitle = "About Vienna";
+  const pageTitle = "About";
   const fernLink = "/fern-leopard-books";
 
   return (
@@ -16,7 +16,7 @@ export default function Home() {
     <FernNavbar />
 
     <Container>
-    <h1>About Vienna</h1>
+    <h1>{pageTitle}</h1>
     <hr />
     <Row className="mb-3">
       <Col md>

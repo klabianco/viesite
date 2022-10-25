@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Footer from "../components/Footer";
 
 export default function Home() {
-  const pageTitle = "Vienna's Dragon Drawings";
+  const pageTitle = "Dragon Drawings";
 
   return (
     <>
@@ -14,7 +14,7 @@ export default function Home() {
     <FernNavbar />
 
       <Container>
-      <h1>Dragon Drawings</h1>
+      <h1>{pageTitle}</h1>
       <hr />
       <Col className="mb-3">
           <p>The Wings of Fire Books led me to thinking, &quot;Hey, what if I tried to draw some dragons?&quot;  I started by just tracing the covers of the books with tracing paper, and then after I had traced them, took pictures of them on an app called <a href="https://procreate.art/" target="_blank" rel="noreferrer noopener">Procreate</a> and traced them on the iPad.  Then I colored them in, and added backgrounds.  Sometimes, I even made dragon eggs in the pictures.</p>

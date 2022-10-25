@@ -12,7 +12,7 @@ import adDragons from '../public/i/dragon-drawings.png';
 import vieDaisy from '../public/i/vie-daisy.jpg';
 
 export default function Home() {
-  const pageTitle = "Vienna's Web";
+  const pageTitle = "Welcome";
 
   return (
     <div style={{backgroundImage: "url(/i/bg-home.jpg)"}}>

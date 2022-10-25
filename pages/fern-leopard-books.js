@@ -10,7 +10,7 @@ import NewsLetterSignUpForm from "../components/NewsletterSignupForm";
 import fernHeader from '../public/i/fern-page-header.jpg';
 
 export default function Home() {
-  const pageTitle = "Fern The Leopard Books";
+  const pageTitle = "Fern The Leopard";
 
   return (
     <>
@@ -20,7 +20,7 @@ export default function Home() {
       <h1>{pageTitle}</h1>
           <hr />
           <Row className="mb-3">
-            <Col>
+            <Col className="text-center">
             <Image
               src={fernHeader}
               alt="Fern!"
