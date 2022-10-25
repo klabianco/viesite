@@ -1,18 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
-
+// this simply tests the redirecting of the root path (source)
 module.exports = {
-  async rewrites() {
+  async redirects() {
     return [
       {
-        source: '/sitemap.xml',
-        destination: '/api/sitemap',
+        source: "/fern-leopard-books",
+        destination: "https://ferntheleopard.com",
+        permanent: false,
+        basePath: false,
       },
-    ]
+    ];
   },
-}
-
-module.exports = nextConfig
+};
