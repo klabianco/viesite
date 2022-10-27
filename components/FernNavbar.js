@@ -12,7 +12,7 @@ const FernNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="/fern-leopard-books">Fern The Leopard</Nav.Link>
+          <Nav.Link href="https://ferntheleopard.com">Fern The Leopard</Nav.Link>
           <Nav.Link href="/dragon-drawings">Dragon Drawings</Nav.Link>
           <Nav.Link href="/about">About Vienna</Nav.Link>
           {/*

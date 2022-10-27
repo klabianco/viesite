@@ -21,7 +21,7 @@ export default function Home() {
       <Container>
         <Row className="mb-4">
           <Col className="text-center">
-          <Link href="/fern-leopard-books">
+          <Link href="https://ferntheleopard.com">
             <a>
             <Image
               src={adFern}
